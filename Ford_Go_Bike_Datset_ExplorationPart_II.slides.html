@@ -14857,7 +14857,33 @@ jp-needs-light-background
 <div class="jp-OutputArea-child">
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>The system cannot find the file specified.
+<pre>[NbConvertApp] Converting notebook Ford_Go_Bike_Datset_ExplorationPart_II.ipynb to slides
+[NbConvertApp] Writing 669944 bytes to Ford_Go_Bike_Datset_ExplorationPart_II.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+Traceback (most recent call last):
+  File &#34;C:\Users\aleza\anaconda3\Scripts\jupyter-nbconvert-script.py&#34;, line 10, in &lt;module&gt;
+    sys.exit(main())
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\jupyter_core\application.py&#34;, line 264, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\traitlets\config\application.py&#34;, line 846, in launch_instance
+    app.start()
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\nbconvertapp.py&#34;, line 369, in start
+    self.convert_notebooks()
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\nbconvertapp.py&#34;, line 541, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\nbconvertapp.py&#34;, line 508, in convert_single_notebook
+    self.postprocess_single_notebook(write_results)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\nbconvertapp.py&#34;, line 480, in postprocess_single_notebook
+    self.postprocessor(write_results)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\postprocessors\base.py&#34;, line 28, in __call__
+    self.postprocess(input)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\nbconvert\postprocessors\serve.py&#34;, line 90, in postprocess
+    http_server.listen(self.port, address=self.ip)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\tornado\tcpserver.py&#34;, line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File &#34;C:\Users\aleza\anaconda3\lib\site-packages\tornado\netutil.py&#34;, line 161, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
 </pre>
 </div>
 </div>
