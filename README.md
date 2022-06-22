@@ -18,3 +18,10 @@ I observed that the average ride duration is higher on weekends (saturday and sa
 - The Customers have the longer average ride duration
 - The female customers have the longer ride duration
 - Sutardays and sundays have the longer ride duration
+
+
+## Dependencies
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
